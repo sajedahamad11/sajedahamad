@@ -1,0 +1,66 @@
+body {
+     background-color: rgb(55, 53, 57);
+     font-size:20pt;
+
+}
+h6{
+     color:white;
+      font-size:20pt;
+      font-family: "Arial black",gadget;
+      text-align: center;
+
+}
+h1{
+     font-size:20pt;
+      color:white;
+      font-family: "Arial black",gadget;
+}
+h3{
+font-size: 15pt;
+     color:rgb(52, 70, 161);
+
+
+}
+a:link{
+     color:white;
+     font-size: 14pt;
+     text-decoration: none;
+
+}
+a:hover{
+     color:green ;
+     font-size: 14pt;
+     text-decoration: none;
+
+}
+img {
+     background-size: 100px;
+     width: 100px;
+     height: 100px;
+     background-repeat: no-repeat;
+     background-position: left;
+
+}
+.soso{
+     position: relative;
+     animation-name:sajeda;
+     animation-duration: 24s;
+}
+.sajeda47{
+color: white;
+background-color: grey;
+
+}
+p::first-letter{
+     line-height: 1.5;
+     font-size: 50px;
+     font-weight: bold;
+
+}
+@keyframes sajeda {
+0%{left:0px; top:0px;}
+25%{left:350px; top:0px;}
+50%{left: 350px; top:200px;}
+75%{left: 500px; top:200px;}
+100%{left: 0px; top :200px;}
+}
